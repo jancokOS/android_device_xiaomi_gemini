@@ -96,8 +96,6 @@
     <integer-array name="config_autoBrightnessButtonBacklightValues">
     </integer-array>
 
-    <bool name="config_deviceHasVariableButtonBrightness">true</bool>
-
     <!-- Screen brightness used to dim the screen when the user activity
          timeout expires.  May be less than the minimum allowed brightness setting
          that can be set by the user. -->
@@ -151,6 +149,6 @@
             32 - Camera
             64 - Volume rocker
          For example, a device with Home, Back and Menu keys would set this
-         config to 7. -->
-    <integer name="config_deviceHardwareWakeKeys">65</integer>
+         config to 7.
+    <integer name="config_deviceHardwareWakeKeys">65</integer>-->
 </resources>
