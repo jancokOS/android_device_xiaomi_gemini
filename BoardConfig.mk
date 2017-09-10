@@ -27,7 +27,7 @@ TARGET_OTA_ASSERT_DEVICE := gemini
 TARGET_BOARD_INFO_FILE ?= $(DEVICE_PATH)/board-info.txt
 
 # Kernel
-TARGET_KERNEL_CONFIG := gemini_defconfig
+TARGET_KERNEL_CONFIG := aosp_gemini_defconfig
 
 # NFC
 NXP_CHIP_TYPE := 2
